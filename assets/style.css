@@ -11,34 +11,37 @@ body {
 header {
     background-color: #f5bb64;
     color: white;
-    padding: 35px 20px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
     margin-top: 0px;
-    float: left;
 }
 
 nav {
 
 }
 
-nav li {
+nav ul {
     list-style-type: none;
+
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    float: right;
-    padding: 12px;
+    padding: 18px;
     margin-top: -15px;
 }
+
 
 main {
     padding-top: 30px;
     padding: 12px;
     margin: 0 auto;
+    align-items: center;
 }
 
 .container {
